@@ -46,7 +46,7 @@ app.post('/submit-data', function (req, res) {
     service: 'gmail',
     auth: {
       user: 'roleplast1101@gmail.com',
-      pass: process.env.PASSWORD
+      pass: 'roleplast9876'
     },
     tls:{
       rejectUnauthorized:false
