@@ -55,7 +55,7 @@ app.post('/submit-data', function (req, res) {
   
   var mailOptions = {
     from: 'roleplast1101@gmail.com',
-    to: 'parasindustries108@gmail.com',
+    to: 'basusub@gmail.com',
     subject: 'New customer Roleplast',
     html: output
   };
