@@ -495,9 +495,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 68px !important;
+    font-size: 68px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 990px) {
+  #hero h2{
+    font-size: 26px;
+    padding: 10px;
   }
 }
 
